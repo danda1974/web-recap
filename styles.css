@@ -38,7 +38,6 @@ nav ul {
 }
 
 #hero {
-  border: 2px solid red;
   height: 50vh;
   text-align: center;
   display: flex;
@@ -60,6 +59,45 @@ nav ul {
   background-color: #22577e;
   color: white;
   padding: 10px 20px;
+  border-radius: 20px;  
+}
+
+main {
+  background-color:#95d1cc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  margin: 4vh;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;  
+}
+
+.left-box {
+  background-color: white;
+  margin: 0 2vh;
+  padding: 2vh;
   border-radius: 20px;
-  
+  width: 30%;
+}
+
+.right-box {
+  background-color: white;
+  margin: 0 2vh;
+  padding: 2vh;
+  border-radius: 20px;
+  width: 30%;
+}
+
+h2 {
+  margin-bottom: 10px;
 }
